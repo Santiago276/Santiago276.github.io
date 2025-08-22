@@ -1,63 +1,246 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Evento de Networking - Tapiceros</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Networking de Tapiceros</h1>
-    <nav>
-      <a href="#objetivo">Público Objetivo</a>
-      <a href="#beneficios">Beneficios</a>
-      <a href="#registro">Registro</a>
-    </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peletería Los Duques | Precios Bajos y Calidad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+    <div class="container header-container">
+      <div class="logo">
+        <i class="fas fa-couch"></i>
+        <span>Tapicería Express</span>
+      </div>
+      <nav>
+        <a href="#productos">Productos</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#promociones">Ofertas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
   </header>
 
   <section class="hero">
-    <h1>Conecta, Comparte y Crece</h1>
-    <p>Un evento exclusivo para tapiceros profesionales y usuarios apasionados del tapizado.</p>
+    <div class="container">
+      <h1>Materiales de Tapicería al Mejor Precio</h1>
+      <p>Descubre nuestras increíbles ofertas en telas, hilos, herramientas y todo lo que necesitas para tus proyectos de tapicería.</p>
+      <a href="#productos" class="cta-button">Ver Ofertas</a>
+    </div>
   </section>
 
-  <section id="objetivo">
-    <h2>Público Objetivo</h2>
-    <p>Este evento está dirigido a <strong>tapiceros profesionales</strong>, nuestros principales clientes, así como a <strong>usuarios que realizan proyectos de tapizado básico</strong>. Queremos reunirlos para fortalecer la confianza, crear comunidad y atraer nuevas oportunidades de negocio.</p>
-  </section>
-
-  <section id="beneficios">
-    <h2>Beneficios de Asistir</h2>
-    <div class="benefits">
-      <div class="card">
-        <h3>🤝 Networking</h3>
-        <p>Conoce a otros profesionales y usuarios apasionados del tapizado.</p>
-      </div>
-      <div class="card">
-        <h3>📈 Crecimiento</h3>
-        <p>Descubre nuevas oportunidades comerciales y fortalece tu negocio.</p>
-      </div>
-      <div class="card">
-        <h3>🎯 Confianza</h3>
-        <p>Genera relaciones de valor y consolida tu confianza en nuestros productos.</p>
+  <section id="productos">
+    <div class="container">
+      <h2>Productos Destacados</h2>
+      <div class="productos-grid">
+        <div class="producto">
+          <div class="producto-img">
+            <i class="fas fa-rug"></i>
+          </div>
+          <span class="descuento">-20%</span>
+          <div class="producto-info">
+            <h3 class="producto-titulo">Tela de Chenilla Premium</h3>
+            <div class="producto-precio">
+              <span class="precio-actual">$45.900/m</span>
+              <span class="precio-anterior">$57.900/m</span>
+            </div>
+            <a href="#" class="btn-comprar">Añadir al carrito</a>
+          </div>
+        </div>
+        
+        <div class="producto">
+          <div class="producto-img">
+            <i class="fas fa-cut"></i>
+          </div>
+          <span class="descuento">-15%</span>
+          <div class="producto-info">
+            <h3 class="producto-titulo">Juego de Herramientas Profesional</h3>
+            <div class="producto-precio">
+              <span class="precio-actual">$89.900</span>
+              <span class="precio-anterior">$105.900</span>
+            </div>
+            <a href="#" class="btn-comprar">Añadir al carrito</a>
+          </div>
+        </div>
+        
+        <div class="producto">
+          <div class="producto-img">
+            <i class="fas fa-weight-hanging"></i>
+          </div>
+          <div class="producto-info">
+            <h3 class="producto-titulo">Espuma de Alta Densidad</h3>
+            <div class="producto-precio">
+              <span class="precio-actual">$32.500/pl</span>
+            </div>
+            <a href="#" class="btn-comprar">Añadir al carrito</a>
+          </div>
+        </div>
+        
+        <div class="producto">
+          <div class="producto-img">
+            <i class="fas fa-server"></i>
+          </div>
+          <span class="descuento">-30%</span>
+          <div class="producto-info">
+            <h3 class="producto-titulo">Hilo de Poliéster Resistente</h3>
+            <div class="producto-precio">
+              <span class="precio-actual">$12.900</span>
+              <span class="precio-anterior">$18.900</span>
+            </div>
+            <a href="#" class="btn-comprar">Añadir al carrito</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="registro">
-    <h2>Regístrate Aquí</h2>
-    <form id="formRegistro">
-      <input type="text" id="nombre" placeholder="Nombre completo" required>
-      <input type="email" id="email" placeholder="Correo electrónico" required>
-      <textarea id="mensaje" rows="4" placeholder="¿Por qué quieres asistir?"></textarea>
-      <button type="submit">Enviar Registro</button>
-    </form>
+  <section id="beneficios">
+    <div class="container">
+      <h2>¿Por qué comprar con nosotros?</h2>
+      <div class="benefits">
+        <div class="card">
+          <i class="fas fa-tags"></i>
+          <h3>Precios Imbatibles</h3>
+          <p>Ofrecemos los mejores precios del mercado con descuentos permanentes y ofertas especiales.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-truck"></i>
+          <h3>Envío Rápido</h3>
+          <p>Recibe tus productos el mismo día con nuestro servicio de entrega express.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Calidad Garantizada</h3>
+          <p>Todos nuestros productos tienen garantía de calidad y devolución sin complicaciones.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonios">
+    <div class="container">
+      <h2>Lo que dicen nuestros clientes</h2>
+      <div class="testimonials">
+        <div class="testimonial">
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Compré tela para retapizar mi sofá y quedé encantado con la calidad y el precio. ¡Volveré a comprar!"</p>
+          <p class="testimonial-author">- María López</p>
+        </div>
+        <div class="testimonial">
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Como tapicero profesional, encuentro aquí todos los materiales que necesito a precios increíbles."</p>
+          <p class="testimonial-author">- Carlos Méndez</p>
+        </div>
+        <div class="testimonial">
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="testimonial-text">"El envío fue super rápido y la atención al cliente excelente. Recomiendo totalmente esta tienda."</p>
+          <p class="testimonial-author">- Javier Rodríguez</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="promociones">
+    <div class="container">
+      <h2>Ofertas por Tiempo Limitado</h2>
+      <div class="promo-container">
+        <p>Aprovecha nuestros descuentos especiales esta semana. ¡No pierdas esta oportunidad!</p>
+        
+        <div class="contador">
+          <div class="contador-item">
+            <div class="contador-numero" id="dias">03</div>
+            <div>Días</div>
+          </div>
+          <div class="contador-item">
+            <div class="contador-numero" id="horas">12</div>
+            <div>Horas</div>
+          </div>
+          <div class="contador-item">
+            <div class="contador-numero" id="minutos">45</div>
+            <div>Minutos</div>
+          </div>
+          <div class="contador-item">
+            <div class="contador-numero" id="segundos">30</div>
+            <div>Segundos</div>
+          </div>
+        </div>
+        
+        <a href="#productos" class="cta-button">Ver Todas las Ofertas</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="container">
+      <h2>¿Necesitas asesoramiento?</h2>
+      <div class="form-container">
+        <form id="formContacto">
+          <input type="text" placeholder="Nombre completo" required>
+          <input type="email" placeholder="Correo electrónico" required>
+          <input type="tel" placeholder="Teléfono de contacto">
+          <select required>
+            <option value="" disabled selected>¿Qué tipo de producto necesitas?</option>
+            <option value="telas">Telas</option>
+            <option value="herramientas">Herramientas</option>
+            <option value="espumas">Espumas</option>
+            <option value="otros">Otros materiales</option>
+          </select>
+          <textarea rows="4" placeholder="Describe tu proyecto o consulta"></textarea>
+          <button type="submit">Enviar consulta</button>
+        </form>
+      </div>
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 Evento Networking Tapiceros | Contacto: 3006221467</p>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Tapicería Express</h3>
+          <p>Tu tienda de confianza para materiales de tapicería al mejor precio.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Contáctanos</h3>
+          <p><i class="fas fa-phone"></i> 3006221467</p>
+          <p><i class="fas fa-envelope"></i> info@tapiceriaexpress.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Calle 123 #45-67, Medellín</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Síguenos</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <p>&copy; 2025 Peletería Los Duque. Todos los derechos reservados.</p>
+    </div>
   </footer>
 
-   <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
